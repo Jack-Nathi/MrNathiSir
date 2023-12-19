@@ -4,6 +4,7 @@ function inputVisibility(number) {
   let currentValue = num.value;
 
   num.value = currentValue + number;
+  console.log(num.value);
 }
 
 function erase() {
