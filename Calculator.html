@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="numbers.css" />
+  <link rel="stylesheet" href="display.css" />
+  <body>
+    <div class="parent">
+      <div class="parent-1">
+        <div class="display-1">
+          <input class="inputNumbers" placeholder="numbers" maxlength="25" />
+        </div>
+        <div class="JS-answer display-2">ans</div>
+      </div>
+      <div class="parent-2">
+        <div class="numbers">
+          <div
+            class="cA"
+            onclick="
+            erase();
+          "
+          >
+            C
+          </div>
+          <div
+            class="cB"
+            onclick="
+          del();
+          "
+          >
+            del
+          </div>
+          <div class="cC">%</div>
+          <div
+            class="cD"
+            onclick="
+          inputVisibility('/')
+          "
+          >
+            /
+          </div>
+        </div>
+        <div class="numbers">
+          <div
+            class="cE"
+            onclick="
+          inputVisibility(7);
+          "
+          >
+            7
+          </div>
+          <div
+            class="cF"
+            onclick="
+          inputVisibility(8);
+          "
+          >
+            8
+          </div>
+          <div
+            class="cG"
+            onclick="
+          inputVisibility(9);
+          "
+          >
+            9
+          </div>
+          <div
+            class="cH"
+            onclick="
+          inputVisibility('*')
+          "
+          >
+            x
+          </div>
+        </div>
+        <div class="numbers">
+          <div
+            class="cI"
+            onclick="
+          inputVisibility(4);
+          "
+          >
+            4
+          </div>
+          <div
+            class="cJ"
+            onclick="
+          inputVisibility(5);        
+           "
+          >
+            5
+          </div>
+          <div
+            class="cK"
+            onclick="
+          inputVisibility(6);
+          "
+          >
+            6
+          </div>
+          <div
+            class="cL"
+            onclick="
+          inputVisibility('-');
+          "
+          >
+            -
+          </div>
+        </div>
+        <div class="numbers">
+          <div
+            class="cM"
+            onclick="
+            
+          inputVisibility(1);
+          "
+          >
+            1
+          </div>
+          <div
+            class="cN"
+            onclick="
+          inputVisibility(2);         
+          "
+          >
+            2
+          </div>
+
+          <div
+            class="cO"
+            onclick="
+          inputVisibility(3);
+          "
+          >
+            3
+          </div>
+          <div
+            class="cP"
+            onclick="
+          inputVisibility('+');
+          "
+          >
+            +
+          </div>
+        </div>
+        <div class="numbers">
+          <div class="cQ">+/-</div>
+          <div
+            class="cR"
+            onclick="
+            inputVisibility(0);
+          "
+          >
+            0
+          </div>
+          <div
+            class="cS"
+            onclick="
+          inputVisibility('.')
+          "
+          >
+            .
+          </div>
+          <div
+            class="cT"
+            onclick="
+           calculateExpression();
+          "
+          >
+            =
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 50px;
+  margin-top: 10px;
+  column-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cE,
+.cF,
+.cG,
+.cI,
+.cJ,
+.cK,
+.cM,
+.cN,
+.cO,
+.cQ,
+.cR,
+.cS {
+  background-color: rgb(15, 15, 104);
+  text-align: center;
+  padding-top: 14px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cB,
+.cC,
+.cD,
+.cH,
+.cL,
+.cP {
+  background-color: rgb(15, 15, 215);
+  text-align: center;
+  padding-top: 14px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cT,
+.cA {
+  background-color: orangered;
+  text-align: center;
+  padding-top: 14px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Clicked {
+  background-color: green;
+  transition: 1s;
+}
